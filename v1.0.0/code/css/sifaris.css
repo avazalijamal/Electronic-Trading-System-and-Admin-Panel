@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.header{
+    width: 95%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+.left{
+    width: 150px;
+    height: 50px;
+    margin-top: 5px;
+    float: left;
+    overflow: hidden;
+
+}
+.left img{
+    width: 150px;
+    height: 50px;
+}
+
+.nav{
+    width: 95%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+.nav a{
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #37BC9B;
+    margin-right: 30px;
+    text-decoration: none;
+
+}
+
+.map{
+    width: 95%;
+    height: 60px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    line-height: 60px;
+    background-color: #FBFAFA;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #F1F1F3;
+    overflow: hidden;
+    font-size: 18px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+  
+}
+
+.content{
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info{
+    width: calc(50% - 10px);
+    height: auto;
+    /* background-color: red; */
+    float: left;
+    text-align: center;
+    border-right: 5px solid #333333;
+}
+.info img{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    border: 2px solid #333333;
+}
+.info h3{
+    font-size: 18px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.info h3 s{
+    color: red;
+}
+.info h3 u{
+    color: #37BC9B;
+}
+.info p{
+    font-size: 18px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.sifairs{
+    width: calc(50% - 10px);
+    height: auto;
+    /* background-color: blue; */
+    float: right;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.sifairs h3{
+    font-size: 18px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.sifairs label{
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.sifairs input{
+    width: 95%;
+    height: 40px;
+    text-indent: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+ 
+.ad{}
+.tel{
+    width: 46%;
+    float: left;
+}
+
+.unvan{
+    width: 46%;
+    float: left;
+    margin-left: 5%;
+}
+
+.btn{
+    width: 100% !important;
+    margin-top: 20px !important;
+    border-radius:0 !important;
+    border: none;
+    font-size: 14px;
+    color: #F1F1F3;
+    background-color: #E61719;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} 

@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EEF2F3;
+}
+.msj{
+    color: red;
+    text-align: center;
+    margin-top: 30px;
+}
+body form{
+    width:250px;
+    height: auto;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+   
+}
+body form div{
+    width: 100%;
+    height: auto;
+    background-color: #aaaab1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -40px;
+    border-radius: 10px;
+
+}
+body form label{
+    width: 80%;
+    height: 40px;
+    background-color: #FEFEFE;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 3px solid #217092;
+}
+body form label img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 10px solid #aaaab1;
+    background-color: #FEFEFE;
+    cursor: pointer;
+}
+.hid{
+    background-color: transparent;
+    border: none;
+    height: auto;
+}
+.hid input{
+    display: none;
+}
+.txt{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-indent: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #353538;
+    font-weight: bold;
+
+}
+.pas{
+    width: calc(100% - 35px);
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-indent: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #353538;
+    font-weight: bold;
+    float: left;
+}
+.chk{
+    width: 30px;
+    height: 40px;
+    margin-right: 5px;
+    float: right;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.sub{
+    width: 80%;
+    height: 40px;
+    background-color: #4EB7DC;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 3px solid #4EB7DC;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FEFEFE;
+    font-weight: bold;
+    cursor: pointer;
+}
